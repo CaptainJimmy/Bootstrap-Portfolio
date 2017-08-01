@@ -44,7 +44,11 @@ footer {
 	border-radius: 25px;
 	padding: 20px;
 }
-
+#panel-box{
+	margin-top: 35px;
+	background-color: white;
+	padding: 20px;
+}
 .image {
   display: block;
   width: 100%;
