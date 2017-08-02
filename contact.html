@@ -13,23 +13,44 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-	   <div class="navbar-header">
-      <div class="navbar-brand zilla">Capt. Jim Reinknecht</div>
-    </div>
-		
-		<div class="navbar-right">
-			<a href="contact.html" class="navbar-btn btn-lg btn-default zilla cream">Contact</a>
-			<a href="index.html" class="navbar-btn btn-lg btn-default zilla cream">About Me</a>
-			<a href="portfolio.html" class="navbar-btn btn-lg btn-default zilla cream">My Portfolio</a>
+<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container-fluid">
+
+			<span class="navbar-brand zilla">Capt. Jim Reinknecht</span>
+
+		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>			
+			<span class="icon-bar"></span>
+		</button>
+
+
+		<div class="collapse navbar-collapse navHeaderCollapse">
+
+			<ul class="nav navbar-nav navbar-right zilla">
+
+				<li class="active"><a href="indexmobile.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li class="dropdown">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">LinkedIN</a></li>
+							<li><a href="#">Github</a></li>
+							<li><a href="#">Stackoverflow</a></li>
+						</ul>
+
+				</li>
+
+			</ul>
+
 		</div>
-	</div>
-</nav>
+</div>
 
 <div class="container-fluid cream" id="mainBox">		
 	<div class="row">
-		<div class="col-sm-6" id="sectionBox">
+		<div class="col-sm-8 col-xs-11" id="sectionBox">
 			<form>
 				<h2>Contact Me</h2> 
 				<br>
@@ -51,7 +72,7 @@
 		</div>
 			
 
-		<div class="col-sm-4" id="sideBox">
+		<div class="col-sm-4 col-xs-11" id="sideBox">
 			<h2>Connect with Me</h2>
 			<br>
 				<a href="http://github.com/CaptainJimmy"><img src="images/github.png" class="imgSizeAdapt" alt="github"></a>
