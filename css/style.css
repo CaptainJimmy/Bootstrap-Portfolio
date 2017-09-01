@@ -25,6 +25,7 @@ footer {
 }
 #mainBox{
 	margin-top: 40px;
+	padding:20px;
 }
 
 #sectionBox{
@@ -71,6 +72,7 @@ footer {
 }
 .cream {
 	background-color: #fff2cc;
+	padding:20px;
 }
 .imgSizeAdapt {
 	height:128px;
